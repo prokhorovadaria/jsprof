@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+.error {
+  border: 3px red solid;
+}
 
+</style>
 <body>
     <input id="from" type="text">
 В инпуте написано: <span></span>
@@ -36,6 +41,9 @@
   <br>
   <button>Отправить</button>
 </form>
+
+
+
 
 <script>
 
@@ -70,6 +78,25 @@
 // })
 
 //3. 
+
+// const formEl = document.querySelector('form');
+// const formControlEl = document.querySelectorAll('.form-control');
+
+
+// formEl.addEventListener('submit', () => {
+//   formControlEl.forEach( function(formControlEl) {
+//         if (formControlEl.value === '') {
+//           formControlEl.classList.add('error');
+//           event.preventDefault();
+//         } 
+//         })});
+
+// formEl.addEventListener('input', function (event) {
+//   if (event.target.value === '') {
+//     event.target.classList.add('error');
+//   } else {
+//     event.target.classList.remove('error');
+//   }});
 
 
 </script>
