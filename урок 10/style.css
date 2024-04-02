@@ -1,0 +1,30 @@
+.product__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    border: 2px solid goldenrod;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.product__text {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.product__img {
+    height: 300px;
+}
+
+.product__scores {
+    color: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
