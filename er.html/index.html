@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="my-title"> Привет, я заголовок</h1>
+
+
+    <script>
+    const myTitle= document.querySelector('.my-title');
+
+    function applyStyles(element, styles) {
+        for (key in styles) {
+            element.style[key] = styles[key];
+        };
+    };
+
+    applyStyles(myTitle, {color: 'red',
+                    border: '1px solid blue',
+                    backgroundColor: 'lightblue',
+                    padding: '24px'
+                    });
+    </script>
+</body>
+</html>

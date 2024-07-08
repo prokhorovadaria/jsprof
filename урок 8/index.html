@@ -79,25 +79,24 @@
 
 //3. 
 
-// const formEl = document.querySelector('form');
-// const formControlEl = document.querySelectorAll('.form-control');
+const formEl = document.querySelector('form');
+const formControlEl = document.querySelectorAll('.form-control');
 
 
-// formEl.addEventListener('submit', () => {
-//   formControlEl.forEach( function(formControlEl) {
-//         if (formControlEl.value === '') {
-//           formControlEl.classList.add('error');
-//           event.preventDefault();
-//         } 
-//         })});
+formEl.addEventListener('submit', () => {
+  formControlEl.forEach( function(formControlEl) {
+        if (formControlEl.value === '') {
+          formControlEl.classList.add('error');
+          event.preventDefault();
+        } 
+        })});
 
-// formEl.addEventListener('input', function (event) {
-//   if (event.target.value === '') {
-//     event.target.classList.add('error');
-//   } else {
-//     event.target.classList.remove('error');
-//   }});
-
+formEl.addEventListener('input', function (event) {
+  if (event.target.value === '') {
+    event.target.classList.add('error');
+  } else {
+    event.target.classList.remove('error');
+  }});
 
 </script>
 </body>

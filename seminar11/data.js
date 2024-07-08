@@ -1,7 +1,6 @@
 const data = `
 [
     {
-        "img" : "img/img1.svg",
         "title" : "ELLERY X M'O CAPSULE",
         "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
         "price" : "$52.00"
@@ -31,7 +30,6 @@ const data = `
         "price" : "$52.00"
     },
     {
-        "img" : "img/img6.svg",
         "title" : "ELLERY X M'O CAPSULE",
         "text" : "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
         "price" : "$52.00"
